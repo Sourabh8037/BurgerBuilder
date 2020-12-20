@@ -1,0 +1,25 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 5px solid #ccc;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4),
+    0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+h3 {
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}

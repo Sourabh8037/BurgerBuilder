@@ -1,0 +1,19 @@
+ul {
+  position: fixed;
+  z-index: 250;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+.font12 {
+  font-size: 1.2rem;
+}
+.OpenAuth {
+  transform: translateY(-31%);
+}
+.OpenUnAuth {
+  transform: translateY(-50%);
+}
+.Close {
+  transform: translateY(-150%);
+}
